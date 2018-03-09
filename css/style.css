@@ -1,0 +1,172 @@
+body {
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+    width: 500px;; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    margin-left: 48px;
+}
+
+input[type=url], textarea {
+    width: 500px; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    margin-left: 1px;
+}
+
+input[type=email] {
+    width: 500px; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    margin-left: 81px;
+}
+
+input[type=textarea], textarea {
+    width: 500px; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: -25px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    margin-left: 145px;
+}
+
+input[type=select], select {
+    width: 500px; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 5px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    margin-left: 70px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=reset]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+label {
+    background-color: #4CAF50;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-left: 580px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+#firstname {
+    color: yellow;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#lastname {
+    color: yellow;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#Country {
+    color: yellow;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#Email {
+    color: yellow;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#website {
+    color: yellow;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#message {
+    color: yellow;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#dateRate {
+    color: yellow;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: yellow;
+    margin-left: 645px;
+}
+
+#rate-table {
+    background-color: blue;
+    width: 500px;
+    height: auto;
+    margin-left: 540px;
+}
